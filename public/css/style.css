@@ -111,5 +111,9 @@ img.logo-img:hover {
 }
 
 .top-margin {
-  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+.card-margin-bottom {
+  margin-bottom: 1rem;
 }
