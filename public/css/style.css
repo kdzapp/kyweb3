@@ -1,0 +1,115 @@
+body, html {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../imgs/background-img.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-overlay {
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.6;
+  padding-top: 15%;
+}
+
+.title-text {
+  text-align: center;
+  color: #FAFAFA;
+  font-family: Roboto-Thin;
+}
+
+.image-content {
+  width: 100%;
+}
+
+.section {
+  padding-top: 5rem; 
+  padding-bottom: 5rem;
+  margin-bottom: -1.5rem;
+}
+
+.timeline-filler {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.timeline-start {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.timeline-element {
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+}
+
+.title-size {
+  font-size: 5rem;
+}
+
+@media (max-width : 575px) {
+  .timeline-filler {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1pt dotted;
+  }
+
+  .title-size {
+    font-size: 2.5rem;
+  }
+}
+
+.fa-facebook-f {
+  color: #1C2331;
+}
+
+.fa-linkedin {
+  color: #1C2331;
+}
+
+.fa-twitter {
+  color: #1C2331;
+}
+
+.fa-instagram {
+  color: #1C2331;
+}
+
+img.logo-img {
+  padding: 1rem;
+  height: 20rem;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+}
+
+img.logo-img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.center-cards {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
