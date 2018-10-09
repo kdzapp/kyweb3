@@ -71,6 +71,25 @@ body, html {
   .title-size {
     font-size: 2.5rem;
   }
+
+.bg {
+    background-image: url(imgs/portal.png);
+    /* Full height */
+    height: 10rem;
+    margin-bottom: 5rem;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title-overlay {
+    position: absolute;
+    overflow: hidden;
+    margin-top: -25%;
+    margin-left: -3%;
+  }
 }
 
 .fa-facebook-f {
